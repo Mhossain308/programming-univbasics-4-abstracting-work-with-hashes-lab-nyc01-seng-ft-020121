@@ -1,9 +1,7 @@
-def my_hash_creator(:name, "George")
-  => {:name=>"George"}
-   my_hash_creator(:id, 5)
-   => {:id=>5}
-   my_hash_creator("age", 39)
-    => {"age"=>39}
+def my_hash_creator(:key, value)
+  => {:key => value}
+end
+
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
 end
